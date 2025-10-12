@@ -288,7 +288,7 @@ const Projects = () => {
 
                             <div className='absolute bottom-[10%] left-[33.3%] transform translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 hover:scale-110'>
                                <button
-                                    onClick={() => window.open(project.github, '_blank')}
+                                    onClick={() => window.open(project.live, '_blank')}
                                     className='px-6 py-3 text-black hover:text-white font-bold bg-white hover:bg-gray-700/90 border-gray-500 border-[2px] rounded-xl backdrop-blur-sm transition-all duration-200 shadow-lg flex justify-evenly items-center gap-3'
                                 ><img src={viewarrow} alt="git" width={30}/>
                                     View
